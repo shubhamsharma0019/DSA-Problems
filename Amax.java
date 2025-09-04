@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class Amax {
     public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
+        System.out.println("Enter size of Array: ");
         int n = scn.nextInt();
+         System.out.println("Enter values  in Array: ");
         int []arr = new int [n];
 
         for(int i=0;i<n;i++){
@@ -15,8 +17,8 @@ public class Amax {
               max = arr[i];
             }
         }
-        System.out.println(max);
-        
+        System.out.println("Max Element in Array is:"+max);
+
     }
     
 }
