@@ -5,8 +5,8 @@ public class Amin {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter the size of Array: ");
         int n = scn.nextInt();
-        System.out.println("Enter the Array Elements:");
         int []arr = new int[n];
+         System.out.println("Enter the Array Elements:");
 
         for(int i=0;i<n;i++){
             arr[i] = scn.nextInt();
@@ -17,7 +17,7 @@ public class Amin {
                 min = arr[i];
             }
         }
-        System.out.println("This is the minimum value in whole the arrayis : "+min);
+        System.out.println("This is the minimum value in whole the array is : "+min);
     }
     
 }
