@@ -10,7 +10,7 @@ public class Count_Vowels_In_A_Sentence {
         int count = 0;
         for(int i=0;i<arr.length;i++){
             char ch = arr[i];
-            if(arr[i]=='a' || arr[i] == 'i' || arr[i] == 'e' || arr[i] == 'o' || arr[i] == 'u'){
+            if(ch =='a' || ch == 'i' || ch == 'e' || ch == 'o' || ch == 'u'){
                 count++;
             }
         }
