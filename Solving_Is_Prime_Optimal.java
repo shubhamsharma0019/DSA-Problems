@@ -25,6 +25,6 @@ public class Solving_Is_Prime_Optimal {
           System.out.print("not prime number");
         }
     }
-     
+    //  this is a program to calculate to finf prime number optimal solution
     
 }
